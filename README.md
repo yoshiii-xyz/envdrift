@@ -2,16 +2,17 @@
 
 Envdrift compares a Rust project's Cargo declarations and lockfile with local toolchain, cache, source, target, and installed state.
 
-Status: scaffolded MVP
+Status: published 0.1.0 MVP
 
 CI: [workflow](https://github.com/joshiii-xyz/envdrift/actions/workflows/ci.yml)
+Release: [v0.1.0](https://github.com/joshiii-xyz/envdrift/releases/tag/v0.1.0)
 
 ## Install
 
-The crate is not published yet. Install the local binary with:
+Install the published binary with:
 
 ```bash
-cargo install --path .
+cargo install envdrift --version 0.1.0 --locked
 ```
 
 ## Quick start
@@ -100,8 +101,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the change workflow and
 
 ## Release and support status
 
-No public package or release has been published. The repository is in MVP
-validation and makes no production-readiness claim.
+Version 0.1.0 is published on crates.io and released on GitHub. It is a
+Linux-first MVP and makes no production-readiness claim.
 
 ## Contributing
 

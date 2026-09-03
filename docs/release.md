@@ -1,7 +1,8 @@
 # Release
 
-The 0.1.0 MVP is not released. This document defines the evidence required
-before publication.
+The 0.1.0 MVP was published to crates.io and released on GitHub on
+2026-09-03. The release evidence is recorded privately under
+`qa/evidence/iteration-2026-09-03.md`.
 
 ## Dry run
 
@@ -26,7 +27,15 @@ timeout --foreground 60s env RUSTUP_TOOLCHAIN=nightly cargo fuzz run report -- -
 Inspect the result and record the exact command and output under private
 `qa/evidence/`. Generated corpus and target directories must stay ignored.
 
-## Publication order
+## Publication order used for 0.1.0
+
+The local gate, installed smoke test, hosted CI, security, and CodeQL checks
+passed before publication. The crate was published with `cargo publish
+--locked`, verified with `cargo info` and a fresh `cargo install`, then tagged
+as `v0.1.0`. The tag package workflow passed before the GitHub release was
+created.
+
+For a future release, use this order:
 
 ```text
 local gate
