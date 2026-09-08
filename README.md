@@ -4,8 +4,8 @@ Envdrift compares a Rust project's Cargo declarations and lockfile with local to
 
 Status: published 0.1.0 MVP
 
-CI: [workflow](https://github.com/joshiii-xyz/envdrift/actions/workflows/ci.yml)
-Release: [v0.1.0](https://github.com/joshiii-xyz/envdrift/releases/tag/v0.1.0)
+CI: [workflow](https://github.com/yoshiii-xyz/envdrift/actions/workflows/ci.yml)
+Release: [v0.1.0](https://github.com/yoshiii-xyz/envdrift/releases/tag/v0.1.0)
 
 ## Install
 

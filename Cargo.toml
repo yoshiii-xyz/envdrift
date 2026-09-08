@@ -5,7 +5,7 @@ edition = "2024"
 rust-version = "1.85"
 description = "Detect drift between Rust project declarations and local state"
 license = "MIT"
-repository = "https://github.com/joshiii-xyz/envdrift"
+repository = "https://github.com/yoshiii-xyz/envdrift"
 keywords = ["cargo", "environment", "drift", "diagnostics"]
 categories = ["command-line-utilities", "development-tools"]
 
